@@ -13,6 +13,11 @@ html {
 body{
     font-family: "Open Sans";
     color: #808080;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
 }
 
 @import 'layout';
@@ -26,3 +31,15 @@ body{
 @import 'account/account';
 @import 'account/purchase-history';
 @import 'account/account-information';
+
+@import 'shop/shop';
+@import 'shop/shop-search-bar';
+
+@import 'quantity';
+@import 'green-price-tag';
+@import 'shop/shop-product';
+@import 'shop/shop-cart';
+@import 'shop/cart-product';
+
+@import 'order/review';
+@import 'order/reviewForm';
