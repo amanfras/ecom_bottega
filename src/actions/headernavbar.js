@@ -10,6 +10,7 @@ export function setHeaderLinks(links) {
         payload: links
     })
 }
+
 export function setNavbarLinks(links, onClick) {
     return ({
         type: SET_NAVBAR_LINKS,
@@ -25,4 +26,4 @@ export function changeNavbarActive(_id) {
         type: CHANGE_NAVBAR_ACTIVE,
         payload: _id
     })
-} 
+}

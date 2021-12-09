@@ -14,7 +14,7 @@ class Account extends Component {
             {
                 _id: 0,
                 title: 'Shop',
-                plath: '/shop'
+                path: '/shop'
             },
             {
                 _id: 1,
@@ -38,8 +38,6 @@ class Account extends Component {
             }
         ]
 
-        this.props.setHeaderLinks([]);
-        this.props.setNavbarLinks(navbarLinks);
         this.props.setHeaderLinks(headerLinks);
         this.props.setNavbarLinks(navbarLinks);
     }
